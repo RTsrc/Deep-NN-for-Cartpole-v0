@@ -290,7 +290,7 @@ def main():
     #print("Optimal Value Function")
     #printValue(V_opt)
    
-    Q_opt = QLearn(R, T , alpha, 0.99, itr, 0.05)
+    Q_opt = QLearn(R, T , alpha, 0.95, itr, 0.05)
     
     Q_opt2 = QLearn(R, T , alpha, 0.99, itr, 0.2)
     
