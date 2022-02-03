@@ -20,8 +20,8 @@ class DQNet:
         self.learnRate = 0.001
         self.stateSize = 4
         self.actionNum = 2
-        self.batchSize = 50
-        self.bufferSize = 1000
+        self.batchSize = 64
+        self.bufferSize = 1024
         self._buffer = deque(maxlen=self.bufferSize)
         self.model = self.createModel()
         self.targetModel = self.createModel()
