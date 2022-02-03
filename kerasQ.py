@@ -20,8 +20,8 @@ class DQNet:
         self.learnRate = 0.001
         self.stateSize = 4
         self.actionNum = 2
-        self.batchSize = 50
-        self.bufferSize = 1000
+        self.batchSize = 64
+        self.bufferSize = 1024
         self._buffer = deque(maxlen=self.bufferSize)
         self.model = self.createModel()
         self.targetModel = self.createModel()
@@ -162,7 +162,7 @@ if __name__ == '__main__':
     #resu = simulate(1000,500)
     #resu = simulate(1000,500,True, False)
     #resu = simulate(1000,500,False, True)
-    resu = simulate(1000,500,True, True)
+    resu = simulate(2000,500,True, True)
     
     fig = plt.figure()
     plt.plot(resu[0], resu[1]) 
