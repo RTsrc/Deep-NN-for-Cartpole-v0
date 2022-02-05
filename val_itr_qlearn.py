@@ -57,7 +57,7 @@ def ValIterate(T, R, threshold, gamma):
         V2 = np.copy(V)
         getV(T,R, gamma, V, P, V2)
         if passThreshold(V, V2, threshold):
-            print("Converged after" , i ,  "iterations")
+            print("Converged after" , i ,  "th iteration")
             break
         i+=1
     return V,P.astype(int)
