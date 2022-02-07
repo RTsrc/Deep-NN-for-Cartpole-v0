@@ -155,6 +155,11 @@ def simulate(epnum, stepnum, replay=False, target=False, updateFreq = 2):
         tLst.append(i_episode)
         
     return tLst, rLst
+
+def returnTargetState(state, target, starttime):
+    pass
+
+
 if __name__ == '__main__':
     #env
     env = gym.make('CartPole-v0')
