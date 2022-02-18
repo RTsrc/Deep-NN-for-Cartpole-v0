@@ -167,7 +167,7 @@ if __name__ == '__main__':
     #resu = simulate(1000,500)
     #resu = simulate(1000,500,True, False)
     #resu = simulate(1000,500,False, True)
-    resu = simulate(2000,500,True, True)
+    resu = simulate(2000,550,True, True)
     
     fig = plt.figure()
     plt.plot(resu[0], resu[1]) 
