@@ -1,7 +1,3 @@
-IyBEZWVwLU5OLWZvci1DYXJ0cG9sZS12MApEZWVwIE5ldXJhbCBOZXR3b3Jr
-IHdpdGggMiBIaWRkZW4gTGF5ZXJzIGZvciBTb2x2aW5nIHRoZSBDYXJ0cG9s
-ZSBwcm9ibGVtCkFsc28gaW5jbHVkZXMgYW4gcHl0aG9uIGltcGxlbWVudGF0
-aW9uIG9mIFRhYnVsYXIgUS1sZWFybmluZyBhbmQgdmFsdWUgaXRlcmF0aW9u
-Lgo=
-
-A New Entry
+# Deep-NN-for-Cartpole-v0
+Deep Neural Network with 2 Hidden Layers for Solving the Cartpole problem
+Also includes an python implementation of Tabular Q-learning and value iteration.
